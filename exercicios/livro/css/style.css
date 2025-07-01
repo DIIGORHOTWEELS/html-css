@@ -18,6 +18,7 @@
   --cor6: blue;
 }
 *{
+  margin: auto;
   padding: 3px;
 }
 header{
