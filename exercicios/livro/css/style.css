@@ -36,6 +36,10 @@ body{
 }
 main{
   padding: 0px;
+  text-align: justify;
+}
+.img{
+  width: 30%;
 }
 nav{
  margin: 1px 1175px 1px 1px;
@@ -74,7 +78,7 @@ mark{background-color: rgb(141, 238, 92);
   box-shadow: 4px 6px 5px 3px black;}
 .lista{
   padding-left: 20px;
-}}
+}
 pre{
   font-size: 0.9em;
 }
