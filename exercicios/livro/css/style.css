@@ -38,6 +38,9 @@ main{
   padding: 0px;
   text-align: justify;
 }
+code{
+  font-size: 17px;
+}
 .img{
   width: 30%;
 }

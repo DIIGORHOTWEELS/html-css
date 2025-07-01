@@ -35,8 +35,8 @@
         <h1 class="titulo">testando carga com imagens</h1>
         <p>tutorial basico: usa png qnd for para usar a uma imagem sem fundo e o jpeg e qnd voce precisa usar pouco espaco(e preferivel que voce use o jpeg por causa do tamanho) <br>se a imagem  estiver muito pesada e so usar o gimp/fotoshop
         </p>
-        <picture>
-          <source class="img" media="(max-width: 750px)" srcset="../imagens/gato-pq.png" type="image/png" title="gato">
+        <picture class="img">
+          <source  media="(max-width: 750px)" srcset="../imagens/gato-pq.png" type="image/png" title="gato">
           <img src="../imagens/gato.png" title="gato" >
         </picture>
       
@@ -50,7 +50,7 @@
       <section>
         <h1 class="titulo">favicon</h1> 
         
-        <p>favicon=favorite icon e o icone que fica ao lado da url do site por exemplo a url do chess.com tem um peao do lado isso e um favicon para criar um voce precisa do icone que voce pode ou criar ou pode pegar um no site <a href="https://favicon.io/" target="_blank">favicon.cc </a> lembrando que todos os icones tem que estar no formato .ico, no site do favicon tu pode transformar um png em icone, o comando para criar um icon e o comando "link" que eu vou falar mais sobre ele depois esse comando e feito na area "head" la em cima antes do titulo <br>para criar o comando tu so precisa escrever "link" e selecionar a opcao "link:favicon" e apertar enter ir na area "href" apagar oque ta escrito entre parenteses e apertar cntrl+espaco e selecionar o teu icone(e a mesma coisa que tu faz com as imagens) <br>ex: <br><pre><code class="img"> &ltlink rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt  </code></pre> </p>
+        <p>favicon=favorite icon e o icone que fica ao lado da url do site por exemplo a url do chess.com tem um peao do lado isso e um favicon para criar um voce precisa do icone que voce pode ou criar ou pode pegar um no site <a href="https://favicon.io/" target="_blank">favicon.cc </a> lembrando que todos os icones tem que estar no formato .ico, no site do favicon tu pode transformar um png em icone, o comando para criar um icon e o comando "link" que eu vou falar mais sobre ele depois esse comando e feito na area "head" la em cima antes do titulo <br>para criar o comando tu so precisa escrever "link" e selecionar a opcao "link:favicon" e apertar enter ir na area "href" apagar oque ta escrito entre parenteses e apertar cntrl+espaco e selecionar o teu icone(e a mesma coisa que tu faz com as imagens) <br>ex: <br><pre><code> &ltlink rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt  </code></pre> </p>
       </section>
       
       <section>
@@ -92,7 +92,7 @@
        <h2 class=titulo>codigo-fonte</h2>
         <p>quando for escrever um codigo coloca ele na tag "code" para ficar mais facil de ler <br>EX:<code class="img">document.getElementById('teste')</code>esse codigo esta escrito em java script <br>EX2: <pre>
          
-      <code class="img">num = int(input ('digite um numero'))
+      <code>num = int(input ('digite um numero'))
       if num % 2 == 0
       print(f'o numero {num}e par')
       else:
@@ -123,10 +123,10 @@
                     </ol>
             </div>
            <br></p><p> voce tambem pode indicar o inicio da contagem usando o parametro start <br>por exemblo &ltol type="I" start = "5"&gt vai gerar numeros a partir do numero 5</p>
-<pre><p class="img ">o comando ol tem um parametro type onde configuramos o marcador da lista atual
+<pre><p>o comando ol tem um parametro type onde configuramos o marcador da lista atual
           ex:
        
-      <div class="div">
+      <div>
       &ltol&gt
       &ltli> item 1 &lt/li>
       &ltli> item 2 &lt/li>
@@ -145,7 +145,7 @@
       
       
       
-          <div class="div">
+ <div>
        1. item 1
        2. item 2
         a. item 2.1
@@ -154,7 +154,7 @@
         3. item 3
         4. item 4
         5. item 5
-      </div>
+</div>
       
       </p></pre>
       <h2 class="titulo">listas nao ordenadas</h2>
@@ -239,7 +239,7 @@
           </div> <br>para criar isso a gente cria a tag picture e dentro dela a gente poe a tag source e seleciona a tag "source:midia:types" a gente muda de "min-width" para "max-width" e coloca o valor em 1050(pc,tv),750(tablet) e cria uma tag "img" e coloca a imagem grande nela depois disso e so colocar as outras imagens <strong>sempre colocar as maiores imagen em baixo </strong> <br> ex:<strong>
      
 <pre>
-<code class="img">
+<code>
  &ltpicture&gt
  &ltsource media="(max-width: 750px)" srcset="../imagens/img-p.png" type="image/png" title="imagem dinamica">
 &ltsource media="(max-width: 1050px)" srcset="../imagens/img-m.png" type="image/png" title="imagem dinamica">
