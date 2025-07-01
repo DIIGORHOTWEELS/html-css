@@ -9,6 +9,14 @@
 
 
 }
+:root{
+  --cor1: blue;
+  --cor2: blue;
+  --cor3: blue;
+  --cor4: blue;
+  --cor5: blue;
+  --cor6: blue;
+}
 *{
   padding: 3px;
 }
@@ -18,28 +26,33 @@ header{
   
 }
 body{
-  background-color: rgb(128, 41, 222);
+  background-color: rgb(173, 110, 110);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
    text-align: justify;
    text-indent: 20x; 
   
 }
-#menu{
+main{
+  padding: 0px;
+}
+nav{
  margin: 1px 1175px 1px 1px;
+border-bottom-right-radius: 12px;
+border-bottom-left-radius: 12px;
 }
-#menu:hover img{
+nav:hover img{
   display: none;
 }
-#menu a{ 
+nav a{ 
   display: none;
 }
-#menu:hover{ 
+nav:hover{ 
   color: white;
   padding: 100px 150px 110px 100px;
   border: 1px solid black ;
 }
-#menu:hover a{
+nav:hover a{
  display: inline-block;
 width: 100px;
 text-align: left;
@@ -48,6 +61,7 @@ section{
   background-color: rgb(219, 208, 208);
   padding: 10px;
   font-size: 1.1em;
+  border: 6px solid;
 }
 .titulo{
   text-align: center;
@@ -55,10 +69,6 @@ section{
   font-family: 'love';
 }
 mark{background-color: rgb(141, 238, 92);
-}
-section{ 
-border: 6px solid;
-border-radius: 12px;
 }
 #ex01{
   box-shadow: 4px 6px 5px 3px black;}
