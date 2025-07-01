@@ -19,13 +19,7 @@
     </div>
   </nav> <!--eu nao sei como arrumar vou so deixar assim e quando eu aprender eu arrumo;-;-->
  </header> 
-    <main>
-      <section>
-        <h1 class="titulo">Primeiros Passos</h1>
-        <p>bom vou estar considerando que tu conseguiu baixar o visual studio code e o gimp(pode usar o photoshop tambem mas esse e caro) caso nao tenha entao tu pode baixar aqui  <br><a href="https://code.visualstudio.com/Download" rel="nofollow" target="_blank">visual studio code</a><br> <a href="https://www.gimp.org/downloads/" rel="nofollow" target="_blank">gimp</a><br>agora o problema e configurar essa porra se tu nao conseguir entao tu e fresco<br>1 passo:Do lado esquerdo tem alguns icones aperta ctrl+shift+x e abre a aba de extencoes <br>
-        2 passo:baixe as seguintes extencoes <br> <img src="../imagens/tutorial 1.png" alt="bruh"> <br><!--passo 3:eu espero que tu tenha colocado a merda das imagens junto com o arquivo se nao tu vai ficar boiando kkkkkkk--> feito isso agora tu precisa ir nas configuracoes e ativar as opcoes "word break" e "font size" mas esse e so se tu tiver com dificuldade de ler o que ta na tela <br>toda vez que tu for criar um codigo em html tu tem que avisar o computador disso com um comando grandao mas nesse aplicativo tu pode simplesmente escrever "!" e dar enter que ele vai fazer o trabalho pra ti, a maioria dos comandos tu pode escrever ele e dar enter que o comando vai automaticamente se colocado entre colchetes pra ti nao precisar ficar tendo que escrever as tags o tempo todo <br>os teus comandos vao ficar escritos na parte "body" nessa area vai ficar teus textos titulos imagens e etc </p>
-      </section>
-      
+    <main>  
       <section>
         <h1 class="titulo">Paragrafos e Quebras de Linhas e Simbolos</h1>
         <p>a tag "&lt;br&gt;"serve para quebrar um texto em algum lugar especifico </p>
@@ -41,7 +35,12 @@
         <h1 class="titulo">testando carga com imagens</h1>
         <p>tutorial basico: usa png qnd for para usar a uma imagem sem fundo e o jpeg e qnd voce precisa usar pouco espaco(e preferivel que voce use o jpeg por causa do tamanho) <br>se a imagem  estiver muito pesada e so usar o gimp/fotoshop
         </p>
-        <img src="../imagens/Screenshot 2025-05-04 201331.png" alt="foto teste" title="tapioca na rede kk" style="max-width: 340px;">
+        <picture>
+          <source media="(max-width: 750px)" srcset="../imagens/gato-pq.png" type="image/png" title="gato">
+          <img src="../imagens/gato.png" title="gato" >
+        </picture>
+      
+
         <p>e possivel carregar imagens que estao dentro de pastas tudo que voce vai precisa fazer e colocar ao invez do nome da imagem colocar o caminho ate a ela por exemplo "imagens/foto.png"<br><del>importante:a foto tem que estar na mesma pasta que o arquivo html ou em uma pasta dentro da pasta que esta o arquivo html caso contrario nao vai foncionar.</del>na verdade vai sim por exemplo se a foto estiver uma pasta antes da pasta que o arquivo html esta e so adicionar no comeco um "../" e ele vai voltar uma pasta. <br>tambem e possivel carregar imagens externas, voce so tem que colocar ao invez do nome da imagem o link dela mas se o servidor q a imagem esta cair a imagem vai sumir do seu site entao e nao e muito recomendavel usar <br>Ex: <img src="https://th.bing.com/th/id/OIP.1cRvesfHP0e8w5aOXDXycgAAAA?rs=1&pid=ImgDetMain" alt="tabuleiro">  </p> <!--nao te esquece de colocar a porra da imagem caralho-->
       
         <p>a imagem as vezes vai ficar gigante principalmente se for uma imagem da web mas isso da pra mudar com o css <br>te certifica que as imagens nao tem direitos autorais senao pode dar merda <br>tambem e possivel carregar um icon ao invez da foto <br>ex: <img src="../modulo 5/favicon.ico" alt="favicon"> <br>se quiser pode entrar no <a href="https://www.pexels.com/pt-br/" target="_blank" rel="nofollow">pexels</a> para achar imagens e videos sem direitos autorais
