@@ -40,13 +40,10 @@ main{
 }
 code{
   text-align:justify;
-  
-  font-weight: bold;
 }
 .img{
-  width: 45%;
-  left: auto;
-}
+  width: 35%;
+  padding-left: 1px;}
 nav{
  margin: 1px 1175px 1px 1px;
 border-bottom-right-radius: 12px;
