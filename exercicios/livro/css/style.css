@@ -40,8 +40,8 @@ main{
 }
 code{
   text-align:justify;
-  font-size: small;
-  font-weight: bolder;
+  
+  font-weight: bold;
 }
 .img{
   width: 45%;
