@@ -39,10 +39,12 @@ main{
   text-align: justify;
 }
 code{
-  font-size: 17px;
+  text-align:justify;
+  font-size: small;
+  font-weight: bolder;
 }
 .img{
-  width: 30%;
+  width: 45%;
 }
 nav{
  margin: 1px 1175px 1px 1px;

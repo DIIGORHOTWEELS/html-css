@@ -112,7 +112,7 @@
       <section>
         <h1 class=titulo>trabalhando com listas</h1>
         <h2 class=titulo>listas ordenadas</h2>
-        <p>para criar uma lista ordenada a gente abre a tag <abbr title="ordered list">"ol"</abbr> e dentro dela a gente escreve <br> &ltli&gt item 1 &lt/li&gt <br>e assim por diante ate finalizar a lista  ex <br>
+        <p>para criar uma lista ordenada a gente abre a tag <abbr title="ordered list">"ol"</abbr> e dentro dela a gente escreve <br> &ltli&gt item 1 &lt/li&gt <br>e assim por diante ate finalizar a lista  ex</p>< <br>
           <div class="lista">
               <ol type="I" title="lista ordenada" class="lista">
                     <li>1- valor padrao. cria uma lista numerada</li>
@@ -122,10 +122,10 @@
                     <li>i- tambem em numeros romanos mas em minusculas</li>
                     </ol>
             </div>
-           <br></p><p> voce tambem pode indicar o inicio da contagem usando o parametro start <br>por exemblo &ltol type="I" start = "5"&gt vai gerar numeros a partir do numero 5</p>
-<pre><p>o comando ol tem um parametro type onde configuramos o marcador da lista atual
+           <br><p> voce tambem pode indicar o inicio da contagem usando o parametro start <br>por exemblo &ltol type="I" start = "5"&gt vai gerar numeros a partir do numero 5</p>
+<p>o comando ol tem um parametro type onde configuramos o marcador da lista atual
           ex:
-       
+ <pre>      
       <div>
       &ltol&gt
       &ltli> item 1 &lt/li>
@@ -156,7 +156,7 @@
         5. item 5
 </div>
       
-      </p></pre>
+</pre>
       <h2 class="titulo">listas nao ordenadas</h2>
       <p>uma lista sem numero kk<br>nessa lista tem o parametro "type" que tu pode usar para mudar o marcador para um <abbr title="type=square">quadrado</abbr>, <abbr title="type=disc">disco</abbr> ou <abbr> <abbr title="type=circle">circulo</abbr> <br></p>
       <div class="lista">
@@ -238,14 +238,16 @@
                   </ul>
           </div> <br>para criar isso a gente cria a tag picture e dentro dela a gente poe a tag source e seleciona a tag "source:midia:types" a gente muda de "min-width" para "max-width" e coloca o valor em 1050(pc,tv),750(tablet) e cria uma tag "img" e coloca a imagem grande nela depois disso e so colocar as outras imagens <strong>sempre colocar as maiores imagen em baixo </strong> <br> ex:<strong>
      
-<pre>
+
 <code>
- &ltpicture&gt
- &ltsource media="(max-width: 750px)" srcset="../imagens/img-p.png" type="image/png" title="imagem dinamica">
-&ltsource media="(max-width: 1050px)" srcset="../imagens/img-m.png" type="image/png" title="imagem dinamica">
-&lt/picture&gt
+ <p>
+   &ltpicture&gt
+   &ltsource media="(max-width: 750px)" srcset="../imagens/img-p.png" type="image/png" title="imagem dinamica"> <br>
+   &ltsource media="(max-width: 1050px)" srcset="../imagens/img-m.png" type="image/png" title="imagem dinamica">
+   &lt/picture&gt
+ </p>
 </code> 
-</pre>
+
         </strong> <br>esse comando vai te dar o seguinte resultado</p>
         
         <picture>
