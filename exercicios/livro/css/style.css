@@ -49,8 +49,8 @@ code{
 
 }
 .img{
-  width: 35%;
-  padding-left: 1px;}
+  width: 30%;
+}
 nav{
  margin: 1px 1175px 1px 1px;
 border-bottom-right-radius: 12px;
@@ -80,6 +80,7 @@ mark{background-color: rgb(141, 238, 92);
 }
 #ex01{
   box-shadow: 4px 6px 5px 3px black; 
+ 
 }
 
 .lista{
