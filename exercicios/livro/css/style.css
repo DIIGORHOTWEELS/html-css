@@ -41,8 +41,7 @@ max-width: 1050px;
 }
 code{
   font-weight: bolder;
-  margin-left: 1px;
-  margin-right: 1px;
+  padding: 12px;
 }
 .img{
   width: 35%;
