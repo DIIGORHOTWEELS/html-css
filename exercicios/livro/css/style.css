@@ -39,6 +39,11 @@ main{
 min-width: 320px;
 max-width: 1050px;
 }
+section{
+  background-color: rgb(219, 208, 208);
+  padding: 10px;
+  font-size: 1.1em;
+  border: 2px solid;
 code{
   font-weight: bolder;
 
@@ -67,11 +72,7 @@ nav:hover a{
  display: inline-block;
 width: 100px;
 }
-section{
-  background-color: rgb(219, 208, 208);
-  padding: 10px;
-  font-size: 1.1em;
-  border: 6px solid;
+
 }
 .titulo{
   text-align: center;
@@ -81,7 +82,9 @@ section{
 mark{background-color: rgb(141, 238, 92);
 }
 #ex01{
-  box-shadow: 4px 6px 5px 3px black;}
+  box-shadow: 4px 6px 5px 3px black; 
+}
+
 .lista{
   padding-left: 20px;
 }
