@@ -48,7 +48,6 @@ code{
   font-weight: bolder;
 
 }
-
 .img{
   width: 35%;
   padding-left: 1px;}
@@ -71,8 +70,6 @@ nav:hover{
 nav:hover a{
  display: inline-block;
 width: 100px;
-}
-
 }
 .titulo{
   text-align: center;
