@@ -19,11 +19,11 @@
 }
 *{
   margin: auto;
-  padding: 3px;
+  padding: 2px;
 }
 header{
   background-color: rgb(219, 208, 208);
-  border: 2px solid black;
+  border: 1px solid black;
   
 }
 body{
@@ -45,6 +45,7 @@ code{
 }
 .img{
   width: 45%;
+  left: auto;
 }
 nav{
  margin: 1px 1175px 1px 1px;
