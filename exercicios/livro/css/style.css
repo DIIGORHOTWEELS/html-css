@@ -40,6 +40,9 @@ main{
 min-width: 320px;
 max-width: 1050px;
 }
+code{
+  font-weight: bolder;
+}
 .img{
   width: 35%;
   padding-left: 1px;}
