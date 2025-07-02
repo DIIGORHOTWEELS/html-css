@@ -37,10 +37,11 @@ body{
 main{
   padding: 0px;
   text-align: justify;
+min-width: 320px;
+max-width: 1050px;
 }
 code{
   text-align:justify;
-  font-size: 39%;
 }
 .img{
   width: 35%;
