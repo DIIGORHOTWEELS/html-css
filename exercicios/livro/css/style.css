@@ -26,7 +26,30 @@ header{
   border: 1px solid black;
   
 }
+nav{
+display: inline-block;
+border-bottom-right-radius: 12px;
+border-bottom-left-radius: 12px;
+}
+nav:hover img{
+  display: none;
+}
+nav a{ 
+  display: none;
+}
+nav:hover{ 
+  color: white;
+  width: 100px;
+  height: 250px;
+  border: 1px solid black ;
+  
+}
+nav:hover a{
+display:block;
+width: 100px;
+}
 body{
+ height: 100vh;
   background-color: rgb(173, 110, 110);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -44,32 +67,20 @@ section{
   padding: 10px;
   font-size: 1.1em;
   border: 2px solid;}
+  #img-fundo{
+    background-image: url('../imagens/img-p.png');
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    display: inline-block;
+    
+  }
 code{
   font-weight: bolder;
 
 }
 .img{
   width: 30%;
-}
-nav{
- margin: 1px 1175px 1px 1px;
-border-bottom-right-radius: 12px;
-border-bottom-left-radius: 12px;
-}
-nav:hover img{
-  display: none;
-}
-nav a{ 
-  display: none;
-}
-nav:hover{ 
-  color: white;
-  padding: 100px 150px 110px 100px;
-  border: 1px solid black ;
-}
-nav:hover a{
- display: inline-block;
-width: 100px;
 }
 .titulo{
   text-align: center;
