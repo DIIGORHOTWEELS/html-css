@@ -9,11 +9,12 @@
 }
 header{
 background-color: black;
-font-size: larger;
+font-size: 10vh;
 color: white;
 text-align: center;
 padding: 4%;
 margin-bottom: 8%;
+
 }
 header h1{
     font-family: "Passion one", sans-serif;
@@ -40,11 +41,10 @@ section .p{
 font-family: "Sriracha", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 6vh;
   background-color: rgba(0, 0, 0, 0.516);
   color: white;
-  width: 500px;
-  height: 510px;
+  display: inline-block;
   padding-top: 20px;
   padding-bottom: 4%;
   padding-left: 20px;
