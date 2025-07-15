@@ -21,6 +21,8 @@ header h1{
     font-size: 2em;
     font-variant: small-caps;
     display: inline-block;
+    padding: 0px;
+    margin: auto;
 
 }
 header a:hover, footer a:hover{
