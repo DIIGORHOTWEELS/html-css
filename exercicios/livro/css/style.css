@@ -94,7 +94,7 @@ mark{background-color: rgb(141, 238, 92);
  
 }
 
-.lista{
+ol, ul{
   padding-left: 20px;
 }
 footer{
