@@ -41,12 +41,16 @@ nav:hover{
   color: white;
   width: 100px;
   height: 250px;
-  border: 1px solid black ;
+  border: 1px solid rgb(10, 66, 79) ;
+  background-color: burlywood;
+  padding: 4px;
   
 }
 nav:hover a{
 display:block;
 width: 100px;
+text-decoration: none;
+color: black;
 }
 body{
  height: 100vh;
@@ -82,7 +86,7 @@ code{
 .img{
   width: 30%;
 }
-.titulo{
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
   text-align: center;
   text-decoration: double underline;
   font-family: 'love';
@@ -97,8 +101,42 @@ mark{background-color: rgb(141, 238, 92);
 ol, ul{
   padding-left: 20px;
 }
+table ,th ,td{
+border: 1px solid black;
+border-collapse: collapse;
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+}
+table{
+ 
+}
+thead ,th {
+  position: sticky;
+top: -1px;
+background-color: #383838;
+color: white;
+font-weight: bolder;
+}
+
+tbody> tr:nth-child(odd){
+background-color: rgb(192, 183, 183);
+}
+br{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 footer{
   background-color: rgb(19, 19, 20);
   color: white;
   margin: 0px;
 }
+#chess{
+width: 250px;
+height: 250px;
+}
+#chess:hover{
+background-color: white;
+color: black;
+}
+
