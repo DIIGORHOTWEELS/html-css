@@ -69,7 +69,7 @@
     <h2>exemplo de tabela</h2>
     <br>
 
-  
+  <br>
       <table  id="tb1">
         <thead>
           
@@ -107,13 +107,17 @@
         <tr> <td>abcd</td> <td>abcd2</td> <td>abcd3</td> <td>abcd4</td></tr>
       </tbody>
         <tfoot>
-       <th scope="row"><!--row e pq o conteudo esta na msm linha se o conteudo estiver em baixo ent agnt coloca "col"
+       <th scope="row" colspan="4"><!--row e pq o conteudo esta na msm linha se o conteudo estiver em baixo ent agnt coloca "col"
         group e qnd -->
-        fim da tabela
-       <td>exemplo de texto</td>
-       </th>
+        fim da tabela</th>
+        <!--rowspan= expandir coluna -->
+        <!--colspan= expandir linha -->
+        <!--scope-->
+        <!--colgroup=-->
+        <!--rowgroup=-->
         </tfoot>
     </table>
+    <br>
     </section>
     <section>
       <div id="chess">
@@ -131,6 +135,29 @@
         </table>
       </div>
     </section> 
+    <section>
+      <h1>desafios</h1>
+
+      <table style="border-collapse: separate;">
+
+     <tr> <td>1</td> <td>2</td> <td rowspan="2">3</td> <td>4</td></tr>
+<tr> <td>5</td> <td>6</td> <td>7</td> </tr>
+<tr> <td colspan="3">8</td> <td>9</td> </tr>
+<tr> <td rowspan="2">10</td> <td colspan="2">11</td> <td>12</td></tr>
+<tr> <td>13</td> <td>14</td> <td>15</td>
+</tr>
+      </table>
+      <br>
+      <table style="border-collapse: separate;">
+    
+        <tr> <td colspan="4">A</td> <td rowspan="4">B</td> </tr>
+        <tr> <td rowspan="4">C</td> <td>D</td> <td>E</td> <td>F</td> </tr>
+        <tr> <td>G</td> <td>H</td> <td>I</td></tr>
+        <tr> <td>j</td> <td>L</td> <td>M</td></tr>
+        <tr> <td colspan="4">N</td></tr>
+
+      </table>
+    </section>
 </main>
 <footer><p>criado por DIIGORHOTWEELS</p></footer>
 </body>

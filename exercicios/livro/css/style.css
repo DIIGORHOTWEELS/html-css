@@ -107,8 +107,11 @@ border-collapse: collapse;
 font-size: medium;
 font-family: Arial, Helvetica, sans-serif;
 position: relative;
+text-align: center;
 }
-
+caption{
+  font-size: 30px;
+}
 .table{
  width:40vh
 }
@@ -126,14 +129,15 @@ font-weight: bolder;
 background-color: rgb(192, 183, 183);
 }
 br{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: justify;
 }
 footer{
   background-color: rgb(19, 19, 20);
   color: white;
   margin: 0px;
+  margin-top: 1000px;
 }
 #chess{
 background-color: rgb(179, 208, 216);
