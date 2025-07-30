@@ -140,17 +140,21 @@ footer{
   margin-top: 1000px;
 }
 #chess{
-background-color: rgb(179, 208, 216);
+width: 80vh;
 color: black;
 text-align: center;
 font-size: larger;
+object-position: center;
+margin: 0%;
 }
-#chess{
-  width: 100vh;
-}
-#bs{
+#chess #bs{
   background-color: #8df5ea;
 }
+#chess td{
+  background-color: aliceblue;
+}
+
+
 td{
   width: 45px;
   font-size: larger;
