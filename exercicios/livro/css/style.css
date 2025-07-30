@@ -145,7 +145,7 @@ color: black;
 text-align: center;
 font-size: larger;
 }
-div#chess{
+#chess{
   width: 100vh;
 }
 #bs{
