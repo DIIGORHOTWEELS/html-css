@@ -16,10 +16,11 @@
   --cor4: blue;
   --cor5: blue;
   --cor6: blue;
+  --font-principal: Arial , helvetica ,sans-serif;
+  --font-minecraft: love , arial , sans-serif
 }
 *{
   margin: auto;
-  padding: 2px;
 }
 header{
   background-color: rgb(219, 208, 208);
@@ -37,13 +38,25 @@ nav:hover img{
 nav a{ 
   display: none;
 }
+nav span{
+  color: black;
+  display: none;
+  font-family: var(--font-minecraft);
+}
+nav:hover span{
+  padding-left: 4px;
+  display: block;
+  border: 1px solid black;
+}
 nav:hover{ 
   color: white;
-  width: 100px;
-  height: 250px;
+  width: 120px;
+  height: 280px;
   border: 1px solid rgb(10, 66, 79) ;
   background-color: burlywood;
-  padding: 4px;
+  padding: 0px;
+  border-collapse: collapse;
+  font-family: var(--font-principal) ;
   
 }
 nav:hover a{
@@ -67,6 +80,7 @@ min-width: 320px;
 max-width: 1050px;
 }
 section{
+  font-family: var(--font-principal);
   background-color: rgb(219, 208, 208);
   padding: 10px;
   font-size: 1.1em;
@@ -89,9 +103,11 @@ code{
 h1 ,h2 ,h3 ,h4 ,h5 ,h6{
   text-align: center;
   text-decoration: double underline;
-  font-family: 'love';
+  font-family: var(--font-minecraft);
 }
-mark{background-color: rgb(141, 238, 92);
+mark{
+  font-family: var(--font-minecraft);
+  background-color: rgb(141, 238, 92);
 }
 #ex01{
   box-shadow: 4px 6px 5px 3px black; 
@@ -105,7 +121,7 @@ table ,th ,td{
 border: 1px solid black;
 border-collapse: collapse;
 font-size: medium;
-font-family: Arial, Helvetica, sans-serif;
+font-family: var(--font-principal);
 position: relative;
 text-align: center;
 }
@@ -116,7 +132,7 @@ caption{
  width:40vh
 }
 thead ,th {
-  position: sticky;
+position: sticky;
 top: -1px;
 background-color: #383838;
 color: white;
@@ -131,13 +147,12 @@ background-color: rgb(192, 183, 183);
 br{
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: justify;
 }
 footer{
   background-color: rgb(19, 19, 20);
   color: white;
   margin: 0px;
-  margin-top: 1000px;
+  margin-top: 500px;
 }
 #chess{
 color: black;
