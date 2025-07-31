@@ -31,22 +31,26 @@ nav{
 display: inline-block;
 border-bottom-right-radius: 12px;
 border-bottom-left-radius: 12px;
+margin: 0px;
 }
 nav:hover img{
   display: none;
 }
 nav a{ 
   display: none;
+  margin: 0px;
 }
 nav span{
   color: black;
   display: none;
   font-family: var(--font-minecraft);
+  margin: 0px;
 }
 nav:hover span{
   padding-left: 4px;
   display: block;
   border: 1px solid black;
+  margin: 0px;
 }
 nav:hover{ 
   color: white;
@@ -57,13 +61,14 @@ nav:hover{
   padding: 0px;
   border-collapse: collapse;
   font-family: var(--font-principal) ;
-  
+  margin: 0px;
 }
 nav:hover a{
 display:block;
 width: 100px;
 text-decoration: none;
 color: black;
+margin: 0px;
 }
 body{
  height: 100vh;
@@ -80,11 +85,13 @@ min-width: 320px;
 max-width: 1050px;
 }
 section{
+  
   font-family: var(--font-principal);
   background-color: rgb(219, 208, 208);
   padding: 10px;
   font-size: 1.1em;
   border: 2px solid;}
+
   #img-fundo{
     background-image: url('../imagens/img-p.png');
     width: 300px;
