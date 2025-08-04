@@ -8,6 +8,7 @@
      font-weight: normal;
 
 
+
 }
 :root{
   --cor1: blue;
@@ -100,6 +101,7 @@ section{
     display: inline-block;
     
   }
+
 code{
   font-weight: bolder;
 
@@ -120,7 +122,6 @@ mark{
   box-shadow: 4px 6px 5px 3px black; 
  
 }
-
 ol, ul{
   padding-left: 20px;
 }

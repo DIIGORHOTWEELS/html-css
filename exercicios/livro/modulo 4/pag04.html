@@ -6,6 +6,11 @@
     <title>pagina 4</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        iframe{ 
+            border: 1px solid black;
+        }
+    </style>
 </head>
 
 <body> 
@@ -21,10 +26,30 @@
 </header>
 <main>
     <section>
-        <h1></h1>
-        <p></p>
+        <h1>iframe</h1>
+        <p>
+            <a href="../../idiomas/index.html" target="frame">pagina 1</a> <br>
+            <a href="../pacote-projeto-d010/index.html" target="frame">pagina 2</a>
+        </p>
+        <p>exemplo de iframe</p>
+        <iframe src="file:///C:/Users/Usu%C3%A1rio/Documents/estudos/html-css/exercicios/livro/modulo%201/pag01.html" frameborder="0" width="900"
+        height="400" name="frame" referrerpolicy="no-referrer"
+        > <a href="https://diigorhotweels.github.io/html-css/exercicios/livro/modulo%201/pag01.html">seu navegador nao e compativel com iframe</a></iframe>
+
+        <!--"srcdoc" serve p colocar html dentro do iframe ao invez de carregar uma pagina logo de inicio-->
+        <!--seguranca em iframes
+        1-parametro "sandbox=sandbox" tu pode colocar ele em 'sandbox' para nao permitir nada ou tu pode fazer algumas permisoes pontuais tipo allow-scripts
+        2parametro refererpolicy=no-referrer
+        -->
+        <!--tamanho padrao iframe 
+        300x150px
+        parametro scrolling serve p tu desativar a barra de rolagem util se a pagina web q tu usar como iframe for pequena sla-->
+        <!--como bloquear o seu site contra iframe-->
     </section>
 </main>
+<!--o iframe serve basicamente p isso.
+meio inutil ja q tem sites protegidos contra iframes.
+-->
 
 </body>
 </html>
