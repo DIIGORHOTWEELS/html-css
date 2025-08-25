@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <main>
+    
+      <header>
+    <h1 class="titulo">teste com fotmularios</h1>
+    <nav>
+        <img src="../imagens/menu.png" alt="">
+        <span> <p>menu de opcoes</p></span>
+        <br>
+        <a href="../modulo 1/pag01.html" rel="prev" >voltar ao conteudo principal</a> <br> 
+         <a href="../formularios/formularios-dicas.html">teste de formulario</a> <br>
+
+       <a href="../outros-projetos/index.html" target="_parent">outros projetos</a>
+    </nav>
+</header>
+<main>
         <section>
             <p>
-              <form action="">
-                <input type="text" name="">
-                <input type="text" name="">
-                <input type="text" name="">
-                <input type="text" name="">
-                <input type="text" name="">
-                <input type="text" name="">
-                <input type="email" name="" id="">
-                <input type="submit" value="enviar">
-              </form>
+             <form action="formulario.js" method="post" autocomplete="off">
+              <p><label for="nome">nome</label> <input type="text" id="nome"></p>
+              <p><label for="sobrenome">sobrenome</label> <input type="text" id="sobrenome"></p>
+              <p><label for="senha">senha</label> <input type="password" id="senha"></p>
+              <input type="submit">
+             </form>
             </p>
         </section>
     </main>

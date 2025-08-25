@@ -67,7 +67,6 @@ nav:hover{
   margin: 0px;
 }
 nav:hover a{
-  
 display:block;
 width: 100px;
 text-decoration: none;
@@ -166,10 +165,10 @@ br{
   margin-bottom: 20px;
 }
 footer{
+  text-align: center;
   background-color: rgb(19, 19, 20);
   color: white;
   margin: 0px;
-  margin-top: 500px;
 }
 #chess{
 color: black;
