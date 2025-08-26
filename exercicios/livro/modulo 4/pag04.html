@@ -28,19 +28,23 @@
 <main>
     <section>
         <h1>iframe</h1>
-        <p><a href="../desafios/exercicios/redes-sociais.html">exemplo de iframe</a></p>
+        <p><a href="../desafios/exercicios/redes-sociais.html" target="_parent">exemplo de iframe</a></p>
         
         </div>
         <h1>formularios</h1>
         <p>exemplo de formulario</p>
         <p>formulario basico</p>
-        <br>
-        <form autocomplete="off"  action="cadastro.js" target="_blank"> 
-            <p><label for="inome">nome:</label> <input type="text" nome="nome" id="inome"></p>
-            <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <br> 
+        <form autocomplete="off" method="post" action="../formularios/formulario.java" target="_blank"> 
+            <p><label for="iusu">usuario:</label> <input type="text" autocomplete="username" nome="usu" id="iusu" required placeholder="usuario"></p>
+            <p><label for="imedia">media</label> <input type="number" id="imedia" min="0" max="10" step="0.5"></p>
+            <p><label for="isenha">senha:</label> <input type="password" name="senha" id="isenha" required placeholder="senha"></p>
             <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
         </form><!--label for"id ou nome"
-         -->
+         minlength=minimo de caracteres
+         maxlength=maximo de caracteres
+         size=quantas letras seram mostradas sem criar uma rolagem lateral-->
         <!--aprender https!!!!-->
 <!--get:enviar ate 3000 bits
     post: esse so n mostra as informacoes no link mas ainda da para ver
