@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,64 +8,69 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        iframe{ 
+        iframe {
             border: 1px solid black;
         }
     </style>
 </head>
 
-<body> 
-<header>
-    <h1 class="titulo">anotacoes sobre o curso de html e css modulo 4</h1>
-    <nav>
-        <img src="../imagens/menu.png" alt="">
-        <span> <p>menu de opcoes</p></span>
-        <br>
-        <a href="../modulo 1/pag01.html" rel="_prev">pagina de anotacoes sobre o modulo 1</a><br>
-         <a href="../formularios/formularios-dicas.html">teste de formulario</a> <br>
-       <a href="../outros-projetos/index.html">outros projetos</a>
-    </nav>
-</header>
-<main>
-    <section>
-        <h1>iframe</h1>
-        <p><a href="../desafios/exercicios/redes-sociais.html" target="_parent">exemplo de iframe</a></p>
-        
-        </div>
-        <h1>formularios</h1>
-        <p>exemplo de formulario</p>
-        <p>formulario basico</p>
-        <br> 
-        <form autocomplete="off" method="post" action="../formularios/formulario.java" target="_blank"> 
-            <p><label for="iusu">usuario:</label> <input type="text" autocomplete="username" nome="usu" id="iusu" required placeholder="usuario"></p>
-            <p><label for="imedia">media</label> <input type="number" id="imedia" min="0" max="10" step="0.5"></p>
-            <p><label for="isenha">senha:</label> <input type="password" name="senha" id="isenha" required placeholder="senha"></p>
-            <input type="submit" value="enviar">
-            <input type="reset" value="limpar">
-        </form><!--label for"id ou nome"
+<body>
+    <header>
+        <h1 class="titulo">anotacoes sobre o curso de html e css modulo 4</h1>
+        <nav>
+            <img src="../imagens/menu.png" alt="">
+            <span> <p>menu de opcoes</p></span>
+            <br>
+            <a href="../modulo 1/pag01.html" rel="_prev">pagina de anotacoes sobre o modulo 1</a><br>
+            <a href="../formularios/formularios-dicas.html">teste de formulario</a> <br>
+            <a href="../outros-projetos/index.html">outros projetos</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>iframe</h1>
+            <p><a href="../desafios/exercicios/redes-sociais.html" target="_parent">exemplo de iframe</a></p>
+
+            </div>
+            <h1>formularios</h1>
+            <p>exemplo de formulario</p>
+            <p>formulario basico</p>
+            <br>
+            <form autocomplete="off" method="post" action="../formularios/formulario.java" target="_blank">
+                <p><label for="iusu">usuario:</label> <input type="text" autocomplete="username" nome="usu" id="iusu" required placeholder="usuario"></p>
+                <p><label for="imedia">media</label> <input type="number" id="imedia" min="0" max="10" step="0.5"></p>
+                <p><label for="isenha">senha:</label> <input type="password" name="senha" id="isenha" required placeholder="senha"></p>
+                <p><label for="icor">cor</label> <input type="color" name="cor" id="icor" value="00ff00"></p>
+                <p> <label for="ifoto">foto de perfil</label> <input type="file"></p>
+                <p><label for="ibah">nivel de satisfacao</label> <input type="range" min="1" max="5" value="2"></p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </form>
+            <!--label for"id ou nome"
          minlength=minimo de caracteres
          maxlength=maximo de caracteres
          size=quantas letras seram mostradas sem criar uma rolagem lateral-->
-        <!--aprender https!!!!-->
-<!--get:enviar ate 3000 bits
+            <!--aprender https!!!!-->
+            <!--get:enviar ate 3000 bits
     post: esse so n mostra as informacoes no link mas ainda da para ver
     usar quando for enviar allguma coisa "sensivel" ex:senha, foto, imagens,etc..-->
-        <!--"srcdoc" serve p colocar html dentro do iframe ao invez de carregar uma pagina logo de inicio-->
-        <!--seguranca em iframes
+            <!--"srcdoc" serve p colocar html dentro do iframe ao invez de carregar uma pagina logo de inicio-->
+            <!--seguranca em iframes
         1-parametro "sandbox=sandbox" tu pode colocar ele em 'sandbox' para nao permitir nada ou tu pode fazer algumas permisoes pontuais tipo allow-scripts
         2parametro refererpolicy=no-referrer
         -->
-        <!--tamanho padrao iframe 
+            <!--tamanho padrao iframe 
         300x150px
         parametro scrolling serve p tu desativar a barra de rolagem util se a pagina web q tu usar como iframe for pequena sla-->
-        <!--como bloquear o seu site contra iframe-->
-    </section>
-   
-</main>
-<!--o iframe serve basicamente p isso.
+            <!--como bloquear o seu site contra iframe-->
+        </section>
+
+    </main>
+    <!--o iframe serve basicamente p isso.
 meio inutil ja q tem sites protegidos contra iframes.
 -->
-<!--vh= view height
+    <!--vh= view height
 vw= view width-->
 </body>
+
 </html>
