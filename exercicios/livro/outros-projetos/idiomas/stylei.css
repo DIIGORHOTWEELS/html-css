@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+        ul , ol ,p , h1 ,h2 ,h3 ,h4 ,h5 , h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            line-height: 50px;
+        }
+
+        table, td, th{
+border: 1px solid black;
+border-collapse: collapse;
+font-size: medium;
+font-family: var(--font-principal);
+position: relative;
+text-align: center;
+padding: 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+}
+thead ,th {
+position: sticky;
+top: -1px;
+background-color: #383838;
+color: white;
+font-weight: bolder;
+}
+footer{
+    margin-top: 1000px;
+    background-color: #383838;
+    color: aliceblue;
+}
+#tbr{
+ width:40vh;
+}
+#tbm{
+width: 50vh;
+}
+table{
+    width: 50vh;
+}
